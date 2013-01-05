@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		437B6EFC16915D5B00FA0432 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437B6EFB16915D5B00FA0432 /* UIKit.framework */; };
+		437B6EFE16915D5B00FA0432 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437B6EFD16915D5B00FA0432 /* Foundation.framework */; };
+		437B6F0016915D5B00FA0432 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437B6EFF16915D5B00FA0432 /* CoreGraphics.framework */; };
+		437B6F0616915D5B00FA0432 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 437B6F0416915D5B00FA0432 /* InfoPlist.strings */; };
+		437B6F0816915D5B00FA0432 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 437B6F0716915D5B00FA0432 /* main.m */; };
+		437B6F0C16915D5B00FA0432 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 437B6F0B16915D5B00FA0432 /* AppDelegate.m */; };
+		437B6F0E16915D5B00FA0432 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 437B6F0D16915D5B00FA0432 /* Default.png */; };
+		437B6F1016915D5B00FA0432 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437B6F0F16915D5B00FA0432 /* Default@2x.png */; };
+		437B6F1216915D5B00FA0432 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437B6F1116915D5B00FA0432 /* Default-568h@2x.png */; };
+		437B6F1A16915DD200FA0432 /* Coffee.m in Sources */ = {isa = PBXBuildFile; fileRef = 437B6F1916915DD200FA0432 /* Coffee.m */; };
+		437B6F1F169161D300FA0432 /* CoffeeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 437B6F1E169161D300FA0432 /* CoffeeManager.m */; };
+		437B6F221691648900FA0432 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 437B6F211691648900FA0432 /* libsqlite3.0.dylib */; };
+		437B6F2516917E7900FA0432 /* CoffeeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437B6F2416917E7800FA0432 /* CoffeeTableViewController.m */; };
+		437CD74C1692CDFC003608B0 /* AddCoffeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437CD74B1692CDFC003608B0 /* AddCoffeeViewController.m */; };
+		437CD7511692D710003608B0 /* CoffeeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437CD7501692D710003608B0 /* CoffeeDetailsViewController.m */; };
+		4380B0401696B18000604A6F /* Medi.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4380B03F1696B18000604A6F /* Medi.sqlite */; };
+		4380B0421696C00000604A6F /* wake_up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4380B0411696BFFF00604A6F /* wake_up.mp3 */; };
+		4380B0461696C12F00604A6F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4380B0451696C12F00604A6F /* AVFoundation.framework */; };
+		43C3C03B1693113C0037ABCF /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C3C03A1693113C0037ABCF /* EditViewController.m */; };
+		43EEB9CB16918A1700F6342F /* CoffeeTable.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 43EEB9CA16918A1700F6342F /* CoffeeTable.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		437B6EF716915D5B00FA0432 /* CoffeeUsingSqlite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeUsingSqlite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		437B6EFB16915D5B00FA0432 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		437B6EFD16915D5B00FA0432 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		437B6EFF16915D5B00FA0432 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		437B6F0316915D5B00FA0432 /* CoffeeUsingSqlite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeUsingSqlite-Info.plist"; sourceTree = "<group>"; };
+		437B6F0516915D5B00FA0432 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		437B6F0716915D5B00FA0432 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		437B6F0916915D5B00FA0432 /* CoffeeUsingSqlite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeeUsingSqlite-Prefix.pch"; sourceTree = "<group>"; };
+		437B6F0A16915D5B00FA0432 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		437B6F0B16915D5B00FA0432 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		437B6F0D16915D5B00FA0432 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		437B6F0F16915D5B00FA0432 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		437B6F1116915D5B00FA0432 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		437B6F1816915DD200FA0432 /* Coffee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Coffee.h; path = Coffee/Coffee.h; sourceTree = "<group>"; };
+		437B6F1916915DD200FA0432 /* Coffee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Coffee.m; path = Coffee/Coffee.m; sourceTree = "<group>"; };
+		437B6F1D169161D300FA0432 /* CoffeeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoffeeManager.h; path = CoffeeManager/CoffeeManager.h; sourceTree = "<group>"; };
+		437B6F1E169161D300FA0432 /* CoffeeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoffeeManager.m; path = CoffeeManager/CoffeeManager.m; sourceTree = "<group>"; };
+		437B6F211691648900FA0432 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		437B6F2316917E7800FA0432 /* CoffeeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoffeeTableViewController.h; path = CoffeeTable/CoffeeTableViewController.h; sourceTree = "<group>"; };
+		437B6F2416917E7800FA0432 /* CoffeeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoffeeTableViewController.m; path = CoffeeTable/CoffeeTableViewController.m; sourceTree = "<group>"; };
+		437CD74A1692CDFC003608B0 /* AddCoffeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddCoffeeViewController.h; path = AddCoffeeViewController/AddCoffeeViewController.h; sourceTree = "<group>"; };
+		437CD74B1692CDFC003608B0 /* AddCoffeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddCoffeeViewController.m; path = AddCoffeeViewController/AddCoffeeViewController.m; sourceTree = "<group>"; };
+		437CD74F1692D710003608B0 /* CoffeeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoffeeDetailsViewController.h; path = CoffeeDetailsViewController/CoffeeDetailsViewController.h; sourceTree = "<group>"; };
+		437CD7501692D710003608B0 /* CoffeeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoffeeDetailsViewController.m; path = CoffeeDetailsViewController/CoffeeDetailsViewController.m; sourceTree = "<group>"; };
+		4380B03F1696B18000604A6F /* Medi.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Medi.sqlite; sourceTree = "<group>"; };
+		4380B0411696BFFF00604A6F /* wake_up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wake_up.mp3; sourceTree = "<group>"; };
+		4380B0451696C12F00604A6F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		43C3C0391693113C0037ABCF /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditViewController.h; path = EditViewController/EditViewController.h; sourceTree = "<group>"; };
+		43C3C03A1693113C0037ABCF /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditViewController.m; path = EditViewController/EditViewController.m; sourceTree = "<group>"; };
+		43EEB9CA16918A1700F6342F /* CoffeeTable.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoffeeTable.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		437B6EF416915D5B00FA0432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4380B0461696C12F00604A6F /* AVFoundation.framework in Frameworks */,
+				437B6F221691648900FA0432 /* libsqlite3.0.dylib in Frameworks */,
+				437B6EFC16915D5B00FA0432 /* UIKit.framework in Frameworks */,
+				437B6EFE16915D5B00FA0432 /* Foundation.framework in Frameworks */,
+				437B6F0016915D5B00FA0432 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		437B6EEC16915D5B00FA0432 = {
+			isa = PBXGroup;
+			children = (
+				437B6F0116915D5B00FA0432 /* CoffeeUsingSqlite */,
+				437B6EFA16915D5B00FA0432 /* Frameworks */,
+				437B6EF816915D5B00FA0432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		437B6EF816915D5B00FA0432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437B6EF716915D5B00FA0432 /* CoffeeUsingSqlite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437B6EFA16915D5B00FA0432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4380B0451696C12F00604A6F /* AVFoundation.framework */,
+				437B6EFB16915D5B00FA0432 /* UIKit.framework */,
+				437B6EFD16915D5B00FA0432 /* Foundation.framework */,
+				437B6EFF16915D5B00FA0432 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		437B6F0116915D5B00FA0432 /* CoffeeUsingSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				43C3C03D169312A20037ABCF /* EditViewController */,
+				437CD7521692D717003608B0 /* CoffeeDetailsViewController */,
+				437B6F2616917E7F00FA0432 /* CoffeeTable */,
+				437B6F1C16915DE200FA0432 /* Model */,
+				4380B0411696BFFF00604A6F /* wake_up.mp3 */,
+				437B6F0A16915D5B00FA0432 /* AppDelegate.h */,
+				437B6F0B16915D5B00FA0432 /* AppDelegate.m */,
+				437B6F0216915D5B00FA0432 /* Supporting Files */,
+			);
+			path = CoffeeUsingSqlite;
+			sourceTree = "<group>";
+		};
+		437B6F0216915D5B00FA0432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4380B03F1696B18000604A6F /* Medi.sqlite */,
+				43EEB9CA16918A1700F6342F /* CoffeeTable.sqlite */,
+				437B6F211691648900FA0432 /* libsqlite3.0.dylib */,
+				437B6F0316915D5B00FA0432 /* CoffeeUsingSqlite-Info.plist */,
+				437B6F0416915D5B00FA0432 /* InfoPlist.strings */,
+				437B6F0716915D5B00FA0432 /* main.m */,
+				437B6F0916915D5B00FA0432 /* CoffeeUsingSqlite-Prefix.pch */,
+				437B6F0D16915D5B00FA0432 /* Default.png */,
+				437B6F0F16915D5B00FA0432 /* Default@2x.png */,
+				437B6F1116915D5B00FA0432 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		437B6F1B16915DD700FA0432 /* Coffee */ = {
+			isa = PBXGroup;
+			children = (
+				437B6F1816915DD200FA0432 /* Coffee.h */,
+				437B6F1916915DD200FA0432 /* Coffee.m */,
+			);
+			name = Coffee;
+			sourceTree = "<group>";
+		};
+		437B6F1C16915DE200FA0432 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				437B6F20169161D900FA0432 /* CoffeeManager */,
+				437B6F1B16915DD700FA0432 /* Coffee */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		437B6F20169161D900FA0432 /* CoffeeManager */ = {
+			isa = PBXGroup;
+			children = (
+				437B6F1D169161D300FA0432 /* CoffeeManager.h */,
+				437B6F1E169161D300FA0432 /* CoffeeManager.m */,
+			);
+			name = CoffeeManager;
+			sourceTree = "<group>";
+		};
+		437B6F2616917E7F00FA0432 /* CoffeeTable */ = {
+			isa = PBXGroup;
+			children = (
+				437B6F2316917E7800FA0432 /* CoffeeTableViewController.h */,
+				437B6F2416917E7800FA0432 /* CoffeeTableViewController.m */,
+				437CD74E1692CE02003608B0 /* AddCoffeeViewController */,
+			);
+			name = CoffeeTable;
+			sourceTree = "<group>";
+		};
+		437CD74E1692CE02003608B0 /* AddCoffeeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				437CD74A1692CDFC003608B0 /* AddCoffeeViewController.h */,
+				437CD74B1692CDFC003608B0 /* AddCoffeeViewController.m */,
+			);
+			name = AddCoffeeViewController;
+			sourceTree = "<group>";
+		};
+		437CD7521692D717003608B0 /* CoffeeDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				437CD74F1692D710003608B0 /* CoffeeDetailsViewController.h */,
+				437CD7501692D710003608B0 /* CoffeeDetailsViewController.m */,
+			);
+			name = CoffeeDetailsViewController;
+			sourceTree = "<group>";
+		};
+		43C3C03D169312A20037ABCF /* EditViewController */ = {
+			isa = PBXGroup;
+			children = (
+				43C3C0391693113C0037ABCF /* EditViewController.h */,
+				43C3C03A1693113C0037ABCF /* EditViewController.m */,
+			);
+			name = EditViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		437B6EF616915D5B00FA0432 /* CoffeeUsingSqlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437B6F1516915D5B00FA0432 /* Build configuration list for PBXNativeTarget "CoffeeUsingSqlite" */;
+			buildPhases = (
+				437B6EF316915D5B00FA0432 /* Sources */,
+				437B6EF416915D5B00FA0432 /* Frameworks */,
+				437B6EF516915D5B00FA0432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeUsingSqlite;
+			productName = CoffeeUsingSqlite;
+			productReference = 437B6EF716915D5B00FA0432 /* CoffeeUsingSqlite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		437B6EEE16915D5B00FA0432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tiyasi Acharya";
+			};
+			buildConfigurationList = 437B6EF116915D5B00FA0432 /* Build configuration list for PBXProject "CoffeeUsingSqlite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 437B6EEC16915D5B00FA0432;
+			productRefGroup = 437B6EF816915D5B00FA0432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				437B6EF616915D5B00FA0432 /* CoffeeUsingSqlite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		437B6EF516915D5B00FA0432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437B6F0616915D5B00FA0432 /* InfoPlist.strings in Resources */,
+				437B6F0E16915D5B00FA0432 /* Default.png in Resources */,
+				437B6F1016915D5B00FA0432 /* Default@2x.png in Resources */,
+				437B6F1216915D5B00FA0432 /* Default-568h@2x.png in Resources */,
+				43EEB9CB16918A1700F6342F /* CoffeeTable.sqlite in Resources */,
+				4380B0401696B18000604A6F /* Medi.sqlite in Resources */,
+				4380B0421696C00000604A6F /* wake_up.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		437B6EF316915D5B00FA0432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437B6F0816915D5B00FA0432 /* main.m in Sources */,
+				437B6F0C16915D5B00FA0432 /* AppDelegate.m in Sources */,
+				437B6F1A16915DD200FA0432 /* Coffee.m in Sources */,
+				437B6F1F169161D300FA0432 /* CoffeeManager.m in Sources */,
+				437B6F2516917E7900FA0432 /* CoffeeTableViewController.m in Sources */,
+				437CD74C1692CDFC003608B0 /* AddCoffeeViewController.m in Sources */,
+				437CD7511692D710003608B0 /* CoffeeDetailsViewController.m in Sources */,
+				43C3C03B1693113C0037ABCF /* EditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		437B6F0416915D5B00FA0432 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437B6F0516915D5B00FA0432 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		437B6F1316915D5B00FA0432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		437B6F1416915D5B00FA0432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		437B6F1616915D5B00FA0432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeUsingSqlite/CoffeeUsingSqlite-Prefix.pch";
+				INFOPLIST_FILE = "CoffeeUsingSqlite/CoffeeUsingSqlite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		437B6F1716915D5B00FA0432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoffeeUsingSqlite/CoffeeUsingSqlite-Prefix.pch";
+				INFOPLIST_FILE = "CoffeeUsingSqlite/CoffeeUsingSqlite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		437B6EF116915D5B00FA0432 /* Build configuration list for PBXProject "CoffeeUsingSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437B6F1316915D5B00FA0432 /* Debug */,
+				437B6F1416915D5B00FA0432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437B6F1516915D5B00FA0432 /* Build configuration list for PBXNativeTarget "CoffeeUsingSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437B6F1616915D5B00FA0432 /* Debug */,
+				437B6F1716915D5B00FA0432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 437B6EEE16915D5B00FA0432 /* Project object */;
+}
